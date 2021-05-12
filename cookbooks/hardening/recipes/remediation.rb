@@ -1,6 +1,6 @@
 package "rsyslog"
-package "audit"
+# package "audit"
 
-cookbook_file "/etc/audit/auditd.conf" do
-  source "auditd.conf"
-end
+# cookbook_file "/etc/audit/auditd.conf" do
+#   source "auditd.conf"
+# end
